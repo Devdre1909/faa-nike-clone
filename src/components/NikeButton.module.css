@@ -1,0 +1,28 @@
+.btn {
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 0.6rem 1.3rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  margin-right: 0.5rem;
+  transition: all 0.3s;
+}
+
+.btn:hover.btnWhite {
+  filter: brightness(0.8);
+}
+
+.btn:hover.btnBlack {
+  filter: brightness(8);
+}
+
+
+.btnWhite {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+.btnBlack {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}

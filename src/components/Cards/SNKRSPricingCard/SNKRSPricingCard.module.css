@@ -1,0 +1,30 @@
+.container {
+  min-width: 30%;
+}
+
+.content {
+}
+
+.tag {
+  color: rgb(237, 88, 88);
+  margin: 0;
+  line-height: 22px;
+}
+
+.name {
+  margin: 0;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.category {
+  margin: 0;
+  line-height: 22px;
+  color: rgb(121, 121, 121);
+}
+
+.price {
+  margin: 0;
+  line-height: 20px;
+  color: rgb(121, 121, 121);
+}
