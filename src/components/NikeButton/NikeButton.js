@@ -1,17 +1,16 @@
 import style from "../NikeButton.module.css";
 
-const NikeButton = ({ variant, text }) => {
+const NikeButton = ({ variant, text, children }) => {
   return (
-    <a
-      href="/"
+    <button
       className={[
         style.btn,
         variant === "black" && style.btnBlack,
         variant === "white" && style.btnWhite,
       ].join(" ")}
     >
-      {text}
-    </a>
+      {children}
+    </button>
   );
 };
 
